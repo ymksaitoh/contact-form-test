@@ -1,0 +1,254 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #5a4a42;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.header-nav__button {
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #7c6654;
+    padding: 5px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header-nav__button:hover {
+    background-color: sienna;
+}
+
+.admin__heading h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #7c6654;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto 20px;
+}
+
+.search-form input,
+.search-form select {
+    height: 38px;
+    padding: 0 10px;
+    border: 1px solid #7c6654;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    font-size: 14px;
+}
+
+.search-form__button-submit,
+.search-form__reset-button {
+    height: 38px;
+    padding: 0 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-form__button-submit {
+    background-color: #7c6654;
+    color: white;
+}
+
+.search-form__button-submit:hover {
+    background-color: sienna;
+}
+
+.search-form__reset-button {
+    background-color: bisque;
+    color: white;
+}
+
+.search-form__reset-button-submit:hover {
+    background-color: sienna;
+}
+
+.admin__content-export {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.admin__content-export button {
+    background-color: gray;
+    border: none;
+    color: #7c6654;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.admin__content-export button:hover {
+    background-color: sienna;
+}
+
+.admin__content-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin__content-table {
+    display: flex;
+    justify-content: center;
+}
+
+.admin__content-table__inner a {
+    width: 90%;
+    max-width: 960px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.admin__content-table__inner th {
+    background-color: sienna;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+
+}
+
+.admin__content-table__inner td {
+    padding: 12px;
+    border-bottom: 1px solid #7c6654;
+    font-size: 14px;
+}
+
+.admin__content-table__inner thead .btn {
+    border: 1px solid #7c6654;
+    background-color: transparent;
+    color: sienna;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.admin__content-table__inner .btn:hover {
+        background-color: sienna;
+}
+
+.page {
+    text-align: center;
+    margin:30px 0;
+}
+
+.page nav {
+    display: inline-block;
+}
+
+.page nav svg {
+    display: none;
+}
+
+.page .pagination {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page .pagination li a,
+.page .pagination li span {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 3px;
+    color: #7c6654;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.page .pagination li.active span {
+    background-color: #7c6654;
+    color: white;
+}
+
+/* .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-window {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 600px;
+    position: relative;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 24px;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 14px;
+}
+
+.modal-label {
+    width: 160px;
+    font-weight: bold;
+    color: #5a3e36;
+}
+
+.modal-value {
+    flex: 1;
+    color: #333;
+}
+
+.modal-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.delete-button {
+    background-color: #b94228;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #9e3320;
+}
+
+ */
