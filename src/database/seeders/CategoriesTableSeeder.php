@@ -16,11 +16,11 @@ class CategoriesTableSeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-            ['content' => '1.商品のお届けについて'],
-            ['content' => '2.商品の交換について'],
-            ['content' => '3.商品トラブル'],
-            ['content' => '4.ショップへのお問い合わせ'],
-            ['content' => '5.その他'],
+            ['id' => 1, 'content' => '1.商品のお届けについて'],
+            ['id' => 2, 'content' => '2.商品の交換について'],
+            ['id' => 3, 'content' => '3.商品トラブル'],
+            ['id' => 4, 'content' => '4.ショップへのお問い合わせ'],
+            ['id' => 5, 'content' => '5.その他'],
         ]);
     }
 
