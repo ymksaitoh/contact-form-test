@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Models\Contact;
+use App\Models\Category;
 
 class ContactFactory extends Factory
 {
@@ -27,7 +28,7 @@ class ContactFactory extends Factory
             'address' => $this->faker->address,
             'building' => $this->faker->optional()->word,
             'detail' => $this->faker->text(120),
-            'category_id' => $this->faker->numberBetween(1, 10),
+            'category_id' => Category::inRandomOrder()->first()->id,
         ];
     }
 }
